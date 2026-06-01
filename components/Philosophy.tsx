@@ -1,10 +1,10 @@
 export default function Philosophy() {
   const values = [
-    { icon: '🔥', title: 'Bold Action', sub: 'No half measures' },
-    { icon: '🎯', title: 'Precision', sub: 'Results-driven focus' },
-    { icon: '💡', title: 'Innovation', sub: 'Fresh approaches' },
-    { icon: '🤝', title: 'Empathy', sub: 'Human-first mindset' },
-    { icon: '⚡', title: 'Impact', sub: 'Measurable outcomes' },
+    { icon: '🔥', title: 'Bold Vision', sub: 'Dream big, execute bigger' },
+    { icon: '🎯', title: 'Bridge Builder', sub: 'Academia meets industry' },
+    { icon: '💡', title: 'Entrepreneurial', sub: 'Innovation-first mindset' },
+    { icon: '🤝', title: 'People First', sub: 'Empowering every individual' },
+    { icon: '⚡', title: 'Action-Oriented', sub: 'Results over rhetoric' },
   ];
 
   return (
@@ -13,10 +13,11 @@ export default function Philosophy() {
         <div className="philosophy-container reveal">
           <div className="philosophy-quote">
             <blockquote>
-              &ldquo;Education is not just about filling minds — it&apos;s about <span className="gold-text">igniting them</span>.
-              I believe every student carries a flame; my job is to fan it into a fire.&rdquo;
+              &ldquo;Quality management education isn&apos;t just about degrees — it&apos;s about building
+              <span className="gold-text"> practical skills &amp; entrepreneurial mindsets</span> that
+              transform +2 graduates into future leaders of Nepal.&rdquo;
             </blockquote>
-            <cite>— Personal Philosophy</cite>
+            <cite>&mdash; Shikhar Lamichhane</cite>
           </div>
           <div className="philosophy-values">
             {values.map((v, i) => (

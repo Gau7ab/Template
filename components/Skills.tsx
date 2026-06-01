@@ -3,19 +3,19 @@ import { useEffect } from 'react';
 
 export default function Skills() {
   const skills = [
-    { name: 'Academic Leadership', pct: 95 },
-    { name: 'IELTS Coaching (All Modules)', pct: 92 },
-    { name: 'Human Resource Management', pct: 90 },
-    { name: 'Career Counseling & Mentorship', pct: 94 },
-    { name: 'Curriculum Development', pct: 88 },
-    { name: 'Public Speaking & Training', pct: 91 },
+    { name: 'Education Management & Leadership', pct: 95 },
+    { name: 'Business Development & Strategy', pct: 92 },
+    { name: 'Student Counseling & Admissions', pct: 94 },
+    { name: 'Event Organization & Execution', pct: 90 },
+    { name: 'HR Management & Marketing', pct: 88 },
+    { name: 'Professional Communication', pct: 93 },
   ];
 
   const tagGroups = [
-    { icon: '🎓', title: 'Education & Training', tags: ['Curriculum Design', 'Student Assessment', 'Accreditation', 'Workshop Facilitation', 'E-Learning', 'Pedagogy'] },
-    { icon: '💼', title: 'HR & Management', tags: ['Recruitment', 'Performance Appraisal', 'Conflict Resolution', 'Employee Engagement', 'Policy Drafting', 'Team Leadership'] },
-    { icon: '🌍', title: 'IELTS & Language', tags: ['Academic Writing', 'Speaking Fluency', 'Listening Strategies', 'Reading Comprehension', 'Grammar Mastery', 'Pronunciation'] },
-    { icon: '🧠', title: 'Soft Skills', tags: ['Communication', 'Empathy', 'Critical Thinking', 'Decision Making', 'Adaptability', 'Negotiation'] },
+    { icon: '🎓', title: 'Education & Program Management', tags: ['MBA Program Direction', 'Curriculum Development', 'Faculty Coordination', 'Student Admissions', 'Academic Quality', 'Accreditation'] },
+    { icon: '📈', title: 'Business & Strategy', tags: ['Business Development', 'Strategic Partnerships', 'Market Analysis', 'Brand Promotion', 'B2B Relations', 'Revenue Growth'] },
+    { icon: '💼', title: 'HR & Marketing', tags: ['Talent Acquisition', 'Performance Management', 'Team Building', 'Employee Engagement', 'Digital Marketing', 'Content Strategy'] },
+    { icon: '🧠', title: 'Leadership & Soft Skills', tags: ['Persuasion & Influence', 'Public Speaking', 'Negotiation', 'Critical Thinking', 'Entrepreneurial Mindset', 'Microsoft Office Suite'] },
   ];
 
   useEffect(() => {
