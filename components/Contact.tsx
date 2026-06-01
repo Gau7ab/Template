@@ -32,7 +32,7 @@ export default function Contact() {
               <div className="contact-method-icon">📧</div>
               <div className="contact-method-text">
                 <h4>Email</h4>
-                <p>shikhar.lamichhane@bostoncollege.edu.np</p>
+                <p><a href="mailto:shikhar.lmchh@gmail.com">shikhar.lmchh@gmail.com</a></p>
               </div>
             </div>
             <div className="contact-method">
@@ -58,9 +58,9 @@ export default function Contact() {
             </div>
           </div>
           <div className="social-links reveal reveal-delay-4">
-            <a href="https://www.linkedin.com/in/shikhar-lamichhane" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn" title="LinkedIn">in</a>
-            <a href="#" className="social-link" aria-label="Facebook" title="Facebook">f</a>
-            <a href="#" className="social-link" aria-label="Instagram" title="Instagram">ig</a>
+            <a href="https://linkedin.com/in/shikhar-lamichhane-1430b499" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn" title="LinkedIn">in</a>
+            <a href="https://www.facebook.com/shikhar.lamichhane" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Facebook" title="Facebook">f</a>
+            <a href="https://www.instagram.com/ckharlamichhane/" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram" title="Instagram">ig</a>
           </div>
         </div>
         <form className="contact-form reveal" id="contactForm" onSubmit={handleSubmit}>
