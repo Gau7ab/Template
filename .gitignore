@@ -1,17 +1,39 @@
-# OS files
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Next.js
+.next/
+out/
+
+# Production
+build/
+dist/
+
+# Misc
 .DS_Store
 Thumbs.db
 desktop.ini
+*.pem
 
-# Editor files
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Editor
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# Node (if added later)
-node_modules/
-package-lock.json
-
-# Logs
-*.log

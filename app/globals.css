@@ -1065,7 +1065,7 @@ img {
   content: '';
   position: absolute;
   inset: 0;
-  background: url('network-bg.png') center/cover no-repeat;
+  background: url('/network-bg.png') center/cover no-repeat;
   opacity: 0.15;
   pointer-events: none;
 }
