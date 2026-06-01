@@ -67,7 +67,10 @@ export default function Hero() {
         </div>
         <div className="hero-image-wrapper">
           <div className="hero-image-container">
-            <img src="/hero-profile.png" alt="Shikhar Lamichhane — Assistant Director MBA Program, Boston International College" />
+            <div className="hero-image-gallery">
+              <img src="/hero-desk.jpg" alt="Shikhar Lamichhane at desk - MBA Program Director" className="gallery-image gallery-image-1" />
+              <img src="/hero-action.jpg" alt="Shikhar Lamichhane presenting - Assistant Director MBA Program" className="gallery-image gallery-image-2" />
+            </div>
           </div>
           <div className="hero-stats" ref={statsRef}>
             <div className="stat-card">
