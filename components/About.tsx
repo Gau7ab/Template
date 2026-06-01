@@ -3,7 +3,7 @@ export default function About() {
     <section className="about" id="about">
       <div className="container">
         <div className="about-image reveal">
-          <img src="/hero-profile.png" alt="About Me — Professional Background" />
+          <img src="/about-profile.png" alt="About Me — Professional Background" />
           <div className="experience-badge">
             <div className="number">10+</div>
             <div className="label">Years Exp.</div>
