@@ -48,6 +48,9 @@ export default function Hero() {
             <span className="line"><span>Mentoring.</span></span>
             <span className="line"><span className="gold-text">Empowering.</span></span>
           </h1>
+          <div className="hero-name">
+            <h2>Shikhar Lamichhane</h2>
+          </div>
           <p className="hero-description">
             A bold, multifaceted professional shaping futures as a Faculty Coordinator,
             Career Mentor, HR Strategist, and IELTS Tutor — committed to transforming potential into excellence.
