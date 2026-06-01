@@ -16,13 +16,13 @@ export default function Navbar() {
   return (
     <nav className={`navbar${scrolled ? ' scrolled' : ''}`} id="navbar">
       <div className="container">
-        <a href="#" className="nav-logo">OM<span>.</span></a>
+        <a href="#" className="nav-logo">SHIKHAR<span>.</span></a>
         <ul className={`nav-links${mobileOpen ? ' active' : ''}`} id="navLinks">
           <li><a href="#about" onClick={handleLinkClick}>About</a></li>
           <li><a href="#services" onClick={handleLinkClick}>Expertise</a></li>
           <li><a href="#skills" onClick={handleLinkClick}>Skills</a></li>
           <li><a href="#testimonials" onClick={handleLinkClick}>Reviews</a></li>
-          <li><a href="#contact" className="nav-cta" onClick={handleLinkClick}>Let&apos;s Talk</a></li>
+          <li><a href="#contact" className="nav-cta" onClick={handleLinkClick}>Let&apos;s Connect</a></li>
         </ul>
         <button className={`mobile-toggle${mobileOpen ? ' active' : ''}`} onClick={() => setMobileOpen(!mobileOpen)} aria-label="Toggle Navigation">
           <span></span><span></span><span></span>

@@ -3,55 +3,56 @@ export default function About() {
     <section className="about" id="about">
       <div className="container">
         <div className="about-image reveal">
-          <img src="/hero-profile.png" alt="About Me — Professional Background" />
+          <img src="/hero-profile.png" alt="Shikhar Lamichhane — Professional Portrait" />
           <div className="experience-badge">
-            <div className="number">10+</div>
+            <div className="number">7+</div>
             <div className="label">Years Exp.</div>
           </div>
         </div>
         <div className="about-content">
           <span className="section-label reveal">About Me</span>
           <h2 className="section-title reveal reveal-delay-1">
-            A Bold Vision for <br /><span className="gold-text">Transformative Education</span>
+            Bridging the Gap Between<br /><span className="gold-text">Academia &amp; Industry</span>
           </h2>
           <p className="section-subtitle reveal reveal-delay-2">
-            I bring a unique blend of academic leadership, human resources expertise,
-            and language training to every interaction. As a Faculty Coordinator, I bridge
-            the gap between institutional goals and student success. As a mentor and HR professional,
-            I craft strategies that unlock human potential.
+            I&apos;m <strong>Shikhar Lamichhane</strong>, currently serving as the Assistant Director of the
+            MBA/Graduate Program at <strong>Boston International College (BIC)</strong>, Bharatpur, Chitwan.
+            With over 7 years of experience in business development, education management, and
+            entrepreneurship, I&apos;m passionate about creating future-ready professionals.
           </p>
           <p className="section-subtitle reveal reveal-delay-2" style={{ marginTop: '1rem' }}>
-            My IELTS training programs have helped hundreds achieve their dream scores,
-            opening doors to international education and careers. I believe in bold action,
-            honest communication, and relentless pursuit of excellence.
+            I hold an <strong>MBA from Amity Business School, India</strong> (HR &amp; Marketing) and a
+            <strong> Master&apos;s in Accounting from Melbourne Business School, University of Melbourne</strong>.
+            My mission is to bridge the gap between academic learning and real-world industry demands,
+            empowering Nepal&apos;s youth with practical skills and entrepreneurial mindsets.
           </p>
           <div className="about-highlights reveal reveal-delay-3">
             <div className="highlight-item">
               <div className="highlight-icon">🎓</div>
               <div className="highlight-text">
-                <h4>Academic Leader</h4>
-                <p>Coordinating faculty &amp; curriculum</p>
+                <h4>MBA Program Leadership</h4>
+                <p>Directing academics &amp; admissions</p>
+              </div>
+            </div>
+            <div className="highlight-item">
+              <div className="highlight-icon">📈</div>
+              <div className="highlight-text">
+                <h4>Business Development</h4>
+                <p>Strategic growth &amp; partnerships</p>
+              </div>
+            </div>
+            <div className="highlight-item">
+              <div className="highlight-icon">🚀</div>
+              <div className="highlight-text">
+                <h4>Entrepreneurship Advocate</h4>
+                <p>Startup bootcamps &amp; mentoring</p>
               </div>
             </div>
             <div className="highlight-item">
               <div className="highlight-icon">🤝</div>
               <div className="highlight-text">
-                <h4>HR Strategist</h4>
-                <p>Talent acquisition &amp; development</p>
-              </div>
-            </div>
-            <div className="highlight-item">
-              <div className="highlight-icon">📚</div>
-              <div className="highlight-text">
-                <h4>IELTS Specialist</h4>
-                <p>Band 7+ coaching expert</p>
-              </div>
-            </div>
-            <div className="highlight-item">
-              <div className="highlight-icon">🧭</div>
-              <div className="highlight-text">
-                <h4>Career Mentor</h4>
-                <p>Guiding professional journeys</p>
+                <h4>Student Counselor</h4>
+                <p>Career guidance &amp; empowerment</p>
               </div>
             </div>
           </div>

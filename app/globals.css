@@ -948,7 +948,7 @@ img {
 }
 
 /* ========================================
-   TESTIMONIALS SECTION
+   TESTIMONIALS SECTION — HORIZONTAL SCROLL
    ======================================== */
 .testimonials {
   padding: var(--section-padding) 0;
@@ -958,31 +958,42 @@ img {
 
 .testimonials-header {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .testimonials-header .section-subtitle {
   margin: 0 auto;
 }
 
-.testimonials-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+.testimonials-scroll-wrapper {
+  overflow: hidden;
+  width: 100%;
+  padding: 1rem 0 2rem;
+  mask-image: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
 }
 
-.testimonial-card {
-  padding: 2.5rem 2rem;
+.testimonials-scroll-track {
+  display: flex;
+  gap: 1.5rem;
+  width: max-content;
+  will-change: transform;
+}
+
+.testimonial-card-h {
+  flex-shrink: 0;
+  width: 380px;
+  padding: 2.2rem 2rem;
   background: var(--bg-card);
   border: 1px solid var(--border-glass);
   border-radius: var(--radius-lg);
-  transition: all var(--transition-medium);
+  transition: border-color var(--transition-medium), box-shadow var(--transition-medium);
   position: relative;
 }
 
-.testimonial-card:hover {
-  transform: translateY(-6px);
+.testimonial-card-h:hover {
   border-color: var(--border-subtle);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
 }
 
 .testimonial-quote {
@@ -995,11 +1006,19 @@ img {
 }
 
 .testimonial-text {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--text-secondary);
   line-height: 1.8;
   margin-bottom: 1.5rem;
   font-style: italic;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.testimonial-card-h:hover .testimonial-text {
+  -webkit-line-clamp: unset;
 }
 
 .testimonial-author {
@@ -1018,27 +1037,29 @@ img {
   justify-content: center;
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: 1rem;
+  font-size: 0.85rem;
   color: var(--bg-primary);
+  flex-shrink: 0;
 }
 
 .testimonial-info h5 {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 .testimonial-info p {
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   color: var(--text-muted);
+  line-height: 1.4;
 }
 
 .testimonial-stars {
   position: absolute;
-  top: 2rem;
-  right: 2rem;
+  top: 1.8rem;
+  right: 1.8rem;
   color: var(--gold-primary);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   letter-spacing: 2px;
 }
 

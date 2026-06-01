@@ -2,16 +2,18 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Portfolio — Faculty Coordinator • Mentor • HR Expert • IELTS Tutor',
+  title: 'Shikhar Lamichhane — Assistant Director MBA Program | Education Leader | Business Strategist',
   description:
-    'Portfolio of a dynamic College Faculty Coordinator, Mentor, HR Professional, and IELTS Tutor. Empowering students and professionals to achieve their full potential.',
+    'Portfolio of Shikhar Lamichhane — Assistant Director of MBA/Graduate Program at Boston International College, Bharatpur. Education leader, business developer, and youth empowerment advocate with 7+ years of experience.',
   keywords: [
-    'Faculty Coordinator',
-    'Mentor',
-    'HR Professional',
-    'IELTS Tutor',
-    'Education',
-    'Career Mentorship',
+    'Shikhar Lamichhane',
+    'Boston International College',
+    'MBA Program Director',
+    'Education Management',
+    'Business Development',
+    'Bharatpur Nepal',
+    'Student Counseling',
+    'Youth Empowerment',
   ],
 };
 

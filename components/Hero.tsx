@@ -41,16 +41,17 @@ export default function Hero() {
         <div className="hero-content">
           <div className="hero-badge">
             <span className="dot"></span>
-            Available for Consultation
+            Assistant Director — MBA Program
           </div>
           <h1 className="hero-title">
-            <span className="line"><span>Educating.</span></span>
-            <span className="line"><span>Mentoring.</span></span>
-            <span className="line"><span className="gold-text">Empowering.</span></span>
+            <span className="line"><span>Leading.</span></span>
+            <span className="line"><span>Inspiring.</span></span>
+            <span className="line"><span className="gold-text">Transforming.</span></span>
           </h1>
           <p className="hero-description">
-            A bold, multifaceted professional shaping futures as a Faculty Coordinator,
-            Career Mentor, HR Strategist, and IELTS Tutor — committed to transforming potential into excellence.
+            I&apos;m <strong>Shikhar Lamichhane</strong> — an education leader, business strategist, and
+            youth empowerment advocate shaping the future of management education at
+            Boston International College, Bharatpur.
           </p>
           <div className="hero-cta">
             <a href="#contact" className="btn-primary">
@@ -66,20 +67,20 @@ export default function Hero() {
         </div>
         <div className="hero-image-wrapper">
           <div className="hero-image-container">
-            <img src="/hero-profile.png" alt="Professional portrait — Faculty Coordinator and Mentor" />
+            <img src="/hero-profile.png" alt="Shikhar Lamichhane — Assistant Director MBA Program, Boston International College" />
           </div>
           <div className="hero-stats" ref={statsRef}>
             <div className="stat-card">
-              <div className="stat-number" data-count="10">0</div>
+              <div className="stat-number" data-count="7">0</div>
               <div className="stat-label">Years Experience</div>
             </div>
             <div className="stat-card">
               <div className="stat-number" data-count="500">0</div>
-              <div className="stat-label">Students Mentored</div>
+              <div className="stat-label">Students Impacted</div>
             </div>
             <div className="stat-card">
-              <div className="stat-number" data-count="95">0</div>
-              <div className="stat-label">% Success Rate</div>
+              <div className="stat-number" data-count="50">0</div>
+              <div className="stat-label">Events Organized</div>
             </div>
           </div>
         </div>

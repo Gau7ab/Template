@@ -20,11 +20,11 @@ export default function Contact() {
           <div>
             <span className="section-label reveal">Get in Touch</span>
             <h2 className="section-title reveal reveal-delay-1">
-              Let&apos;s Build <span className="gold-text">Something Great</span>
+              Let&apos;s <span className="gold-text">Connect &amp; Collaborate</span>
             </h2>
             <p className="section-subtitle reveal reveal-delay-2">
-              Whether you&apos;re looking for IELTS coaching, career mentorship, HR consultation,
-              or academic collaboration — I&apos;d love to hear from you.
+              Whether you&apos;re looking for academic collaboration, business partnerships, career guidance,
+              or want to organize an event — I&apos;d love to hear from you.
             </p>
           </div>
           <div className="contact-methods reveal reveal-delay-3">
@@ -32,29 +32,35 @@ export default function Contact() {
               <div className="contact-method-icon">📧</div>
               <div className="contact-method-text">
                 <h4>Email</h4>
-                <p>hello@yourportfolio.com</p>
+                <p>shikhar.lamichhane@bostoncollege.edu.np</p>
               </div>
             </div>
             <div className="contact-method">
               <div className="contact-method-icon">📱</div>
               <div className="contact-method-text">
                 <h4>Phone</h4>
-                <p>+977-9800000000</p>
+                <p>+977-9801314487</p>
               </div>
             </div>
             <div className="contact-method">
               <div className="contact-method-icon">📍</div>
               <div className="contact-method-text">
                 <h4>Location</h4>
-                <p>Kathmandu, Nepal</p>
+                <p>Bharatpur, Chitwan, Nepal</p>
+              </div>
+            </div>
+            <div className="contact-method">
+              <div className="contact-method-icon">🏛️</div>
+              <div className="contact-method-text">
+                <h4>Organization</h4>
+                <p>Boston International College (BIC)</p>
               </div>
             </div>
           </div>
           <div className="social-links reveal reveal-delay-4">
-            <a href="#" className="social-link" aria-label="LinkedIn" title="LinkedIn">in</a>
+            <a href="https://www.linkedin.com/in/shikhar-lamichhane" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn" title="LinkedIn">in</a>
             <a href="#" className="social-link" aria-label="Facebook" title="Facebook">f</a>
             <a href="#" className="social-link" aria-label="Instagram" title="Instagram">ig</a>
-            <a href="#" className="social-link" aria-label="Twitter/X" title="Twitter/X">𝕏</a>
           </div>
         </div>
         <form className="contact-form reveal" id="contactForm" onSubmit={handleSubmit}>
@@ -75,12 +81,12 @@ export default function Contact() {
           <div className="form-group">
             <label htmlFor="service">I&apos;m Interested In</label>
             <select id="service">
-              <option value="">Select a service...</option>
-              <option value="ielts">IELTS Coaching</option>
+              <option value="">Select a topic...</option>
+              <option value="mba">MBA Program Inquiry</option>
               <option value="mentorship">Career Mentorship</option>
+              <option value="business">Business Collaboration</option>
+              <option value="event">Event / Workshop</option>
               <option value="hr">HR Consultation</option>
-              <option value="faculty">Faculty Coordination</option>
-              <option value="workshop">Workshop / Training</option>
               <option value="other">Other</option>
             </select>
           </div>
