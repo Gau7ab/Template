@@ -8,7 +8,6 @@ import About from '@/components/About';
 import CareerTimeline from '@/components/CareerTimeline';
 import Credentials from '@/components/Credentials';
 import Services from '@/components/Services';
-import ConnectImage from '@/components/ConnectImage';
 import Training from '@/components/Training';
 import CoursesTeach from '@/components/CoursesTeach';
 import Skills from '@/components/Skills';
@@ -170,7 +169,6 @@ export default function Home() {
       <CareerTimeline />
       <Credentials />
       <Services />
-      <ConnectImage />
       <Training />
       <CoursesTeach />
       <Skills />
