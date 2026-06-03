@@ -3,7 +3,7 @@ export default function About() {
     <section className="about" id="about">
       <div className="container">
         <div className="about-image reveal">
-          <img src="/hero-profile.png" alt="Shikhar Lamichhane — Professional Portrait" />
+          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Shikhar-in-the-table-yw3IjzmLAzoCjS9t2Q1QAg20MUyBaW.jpg" alt="Shikhar Lamichhane — MBA Program Director at desk" />
           <div className="experience-badge">
             <div className="number">8+</div>
             <div className="label">Years Exp.</div>
