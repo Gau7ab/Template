@@ -23,8 +23,8 @@ export default function Contact() {
               Let&apos;s <span className="gold-text">Connect &amp; Collaborate</span>
             </h2>
             <p className="section-subtitle reveal reveal-delay-2">
-              Whether you&apos;re looking for academic collaboration, business partnerships, career guidance,
-              or want to organize an event — I&apos;d love to hear from you.
+              Whether you need a corporate trainer, a marketing consultant, a keynote speaker,
+              or want to explore academic collaboration — I&apos;d love to hear from you.
             </p>
           </div>
           <div className="contact-methods reveal reveal-delay-3">
@@ -50,17 +50,17 @@ export default function Contact() {
               </div>
             </div>
             <div className="contact-method">
-              <div className="contact-method-icon">🏛️</div>
+              <div className="contact-method-icon">🌐</div>
               <div className="contact-method-text">
-                <h4>Organization</h4>
-                <p>Boston International College (BIC)</p>
+                <h4>Website</h4>
+                <p>www.shikharlamichhane.com.np</p>
               </div>
             </div>
           </div>
           <div className="social-links reveal reveal-delay-4">
-            <a href="https://www.linkedin.com/in/shikhar-lamichhane" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn" title="LinkedIn">in</a>
-            <a href="#" className="social-link" aria-label="Facebook" title="Facebook">f</a>
-            <a href="#" className="social-link" aria-label="Instagram" title="Instagram">ig</a>
+            <a href="https://www.linkedin.com/in/shikhar-lamichhane-1430b499/" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn" title="LinkedIn">in</a>
+            <a href="https://www.facebook.com/shikhar.lamichhane" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Facebook" title="Facebook">f</a>
+            <a href="https://www.instagram.com/ckharlamichhane/" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram" title="Instagram">ig</a>
           </div>
         </div>
         <form className="contact-form reveal" id="contactForm" onSubmit={handleSubmit}>
@@ -83,10 +83,14 @@ export default function Contact() {
             <select id="service">
               <option value="">Select a topic...</option>
               <option value="mba">MBA Program Inquiry</option>
+              <option value="b2b-sales">B2B Sales Training / Workshop</option>
+              <option value="marketing">Marketing Strategy Consultation</option>
+              <option value="personality">Personality Development Training</option>
+              <option value="communication">Communication & Etiquette Workshop</option>
+              <option value="speaking">Speaking / Keynote Invitation</option>
+              <option value="academic">Academic Collaboration</option>
+              <option value="business">Business Partnership</option>
               <option value="mentorship">Career Mentorship</option>
-              <option value="business">Business Collaboration</option>
-              <option value="event">Event / Workshop</option>
-              <option value="hr">HR Consultation</option>
               <option value="other">Other</option>
             </select>
           </div>

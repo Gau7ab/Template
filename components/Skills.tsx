@@ -3,19 +3,21 @@ import { useEffect } from 'react';
 
 export default function Skills() {
   const skills = [
-    { name: 'Education Management & Leadership', pct: 95 },
-    { name: 'Business Development & Strategy', pct: 92 },
-    { name: 'Student Counseling & Admissions', pct: 94 },
-    { name: 'Event Organization & Execution', pct: 90 },
-    { name: 'HR Management & Marketing', pct: 88 },
-    { name: 'Professional Communication', pct: 93 },
+    { name: 'Marketing Strategy & IMC', width: 95 },
+    { name: 'B2B Sales & Service Selling', width: 93 },
+    { name: 'Business Leadership & Strategy', width: 90 },
+    { name: 'Corporate Training & Facilitation', width: 92 },
+    { name: 'MBA Education & Academic Leadership', width: 94 },
+    { name: 'Professional Communication', width: 91 },
+    { name: 'Personality Development Training', width: 90 },
+    { name: 'Entrepreneurship & Mentoring', width: 88 },
   ];
 
   const tagGroups = [
-    { icon: '🎓', title: 'Education & Program Management', tags: ['MBA Program Direction', 'Curriculum Development', 'Faculty Coordination', 'Student Admissions', 'Academic Quality', 'Accreditation'] },
-    { icon: '📈', title: 'Business & Strategy', tags: ['Business Development', 'Strategic Partnerships', 'Market Analysis', 'Brand Promotion', 'B2B Relations', 'Revenue Growth'] },
-    { icon: '💼', title: 'HR & Marketing', tags: ['Talent Acquisition', 'Performance Management', 'Team Building', 'Employee Engagement', 'Digital Marketing', 'Content Strategy'] },
-    { icon: '🧠', title: 'Leadership & Soft Skills', tags: ['Persuasion & Influence', 'Public Speaking', 'Negotiation', 'Critical Thinking', 'Entrepreneurial Mindset', 'Microsoft Office Suite'] },
+    { icon: '🎯', title: 'Marketing & Sales', tags: ['Integrated Marketing Communications', 'Market Segmentation', 'Brand Strategy', 'B2B Sales', 'Service Selling', 'Client Acquisition', 'Revenue Growth'] },
+    { icon: '🏢', title: 'Business & Leadership', tags: ['P&L Management', 'Strategic Decision-Making', 'Operations Management', 'International Business', 'Team Building', 'Branch Management'] },
+    { icon: '🧠', title: 'Training & Development', tags: ['Personality Development', 'Business Etiquette', 'Confidence Building', 'Presentation Skills', 'Workshop Facilitation', 'Soft Skills'] },
+    { icon: '🎓', title: 'Academics & Mentoring', tags: ['Curriculum Design', 'Faculty Coordination', 'Student Counseling', 'Career Mentoring', 'Program Management', 'Entrepreneurship Advocacy'] },
   ];
 
   useEffect(() => {
@@ -48,10 +50,9 @@ export default function Skills() {
               <div className="skill-item" key={i}>
                 <div className="skill-header">
                   <h4>{s.name}</h4>
-                  <span>{s.pct}%</span>
                 </div>
                 <div className="skill-bar">
-                  <div className="skill-fill" data-width={s.pct}></div>
+                  <div className="skill-fill" data-width={s.width}></div>
                 </div>
               </div>
             ))}

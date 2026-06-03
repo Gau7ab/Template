@@ -1,10 +1,10 @@
 export default function Philosophy() {
   const values = [
-    { icon: '🔥', title: 'Bold Vision', sub: 'Dream big, execute bigger' },
-    { icon: '🎯', title: 'Bridge Builder', sub: 'Academia meets industry' },
-    { icon: '💡', title: 'Entrepreneurial', sub: 'Innovation-first mindset' },
-    { icon: '🤝', title: 'People First', sub: 'Empowering every individual' },
-    { icon: '⚡', title: 'Action-Oriented', sub: 'Results over rhetoric' },
+    { icon: '🔥', title: 'Bold Execution', sub: 'Strategy without action is fantasy' },
+    { icon: '🎯', title: 'Real-World Focus', sub: 'Theory meets practice' },
+    { icon: '💡', title: 'Continuous Growth', sub: 'Always learning, always evolving' },
+    { icon: '🤝', title: 'People First', sub: 'Every interaction matters' },
+    { icon: '⚡', title: 'Multi-Dimensional', sub: 'Sales, strategy, training, education' },
   ];
 
   return (
@@ -13,9 +13,9 @@ export default function Philosophy() {
         <div className="philosophy-container reveal">
           <div className="philosophy-quote">
             <blockquote>
-              &ldquo;Quality management education isn&apos;t just about degrees — it&apos;s about building
-              <span className="gold-text"> practical skills &amp; entrepreneurial mindsets</span> that
-              transform +2 graduates into future leaders of Nepal.&rdquo;
+              &ldquo;The best professionals don&apos;t fit into one box — they bring
+              <span className="gold-text"> strategy, sales, leadership, and the ability to train others</span> into
+              every room they walk into. That&apos;s the standard I hold myself to.&rdquo;
             </blockquote>
             <cite>&mdash; Shikhar Lamichhane</cite>
           </div>

@@ -2,18 +2,22 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Shikhar Lamichhane — Assistant Director MBA Program | Education Leader | Business Strategist',
+  title: 'Shikhar Lamichhane — Marketing Strategist | B2B Sales Expert | Corporate Trainer | MBA Educator',
   description:
-    'Portfolio of Shikhar Lamichhane — Assistant Director of MBA/Graduate Program at Boston International College, Bharatpur. Education leader, business developer, and youth empowerment advocate with 7+ years of experience.',
+    'Shikhar Lamichhane — Marketing Strategist, B2B Sales Expert, Corporate Trainer, Personality Development Trainer & MBA Educator with 8+ years across advertising, education, international business & academia in Nepal. Available for corporate training, workshops, speaking & collaboration.',
   keywords: [
     'Shikhar Lamichhane',
+    'B2B sales Nepal',
+    'marketing strategy Nepal',
+    'corporate trainer Nepal',
+    'personality development trainer',
+    'MBA educator Nepal',
+    'sales training Nepal',
+    'business communication etiquette',
     'Boston International College',
-    'MBA Program Director',
-    'Education Management',
-    'Business Development',
-    'Bharatpur Nepal',
-    'Student Counseling',
-    'Youth Empowerment',
+    'marketing strategist Bharatpur',
+    'B2B sales expert',
+    'corporate training workshops Nepal',
   ],
 };
 

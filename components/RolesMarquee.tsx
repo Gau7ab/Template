@@ -1,13 +1,13 @@
 export default function RolesMarquee() {
   const roles = [
-    'Assistant Director — MBA Program',
-    'Education Leader',
-    'Business Strategist',
-    'Student Counselor',
-    'Event Organizer',
-    'Entrepreneurship Advocate',
-    'Youth Empowerment',
-    'HR & Marketing Specialist',
+    'Marketing Strategist',
+    'B2B Sales Expert',
+    'Corporate Trainer',
+    'MBA Educator',
+    'Personality Development Trainer',
+    'Business Leader',
+    'Startup Advocate',
+    'Academic Director',
   ];
   const doubled = [...roles, ...roles];
   return (

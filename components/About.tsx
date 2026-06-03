@@ -5,54 +5,55 @@ export default function About() {
         <div className="about-image reveal">
           <img src="/hero-profile.png" alt="Shikhar Lamichhane — Professional Portrait" />
           <div className="experience-badge">
-            <div className="number">7+</div>
+            <div className="number">8+</div>
             <div className="label">Years Exp.</div>
           </div>
         </div>
         <div className="about-content">
           <span className="section-label reveal">About Me</span>
           <h2 className="section-title reveal reveal-delay-1">
-            Bridging the Gap Between<br /><span className="gold-text">Academia &amp; Industry</span>
+            A Multi-Dimensional Professional<br /><span className="gold-text">Across Industries &amp; Disciplines</span>
           </h2>
           <p className="section-subtitle reveal reveal-delay-2">
-            I&apos;m <strong>Shikhar Lamichhane</strong>, currently serving as the Assistant Director of the
-            MBA/Graduate Program at <strong>Boston International College (BIC)</strong>, Bharatpur, Chitwan.
-            With over 7 years of experience in business development, education management, and
-            entrepreneurship, I&apos;m passionate about creating future-ready professionals.
+            I&apos;m <strong>Shikhar Lamichhane</strong> — a Marketing Strategist, B2B Sales Expert,
+            Corporate Trainer, and MBA Educator with over 8 years of cross-industry experience
+            spanning advertising, educational consultancy, international business, and academia.
           </p>
           <p className="section-subtitle reveal reveal-delay-2" style={{ marginTop: '1rem' }}>
-            I hold an <strong>MBA from Amity Business School, India</strong> (HR &amp; Marketing) and a
-            <strong> Master&apos;s in Accounting from Melbourne Business School, University of Melbourne</strong>.
-            My mission is to bridge the gap between academic learning and real-world industry demands,
-            empowering Nepal&apos;s youth with practical skills and entrepreneurial mindsets.
+            My career has taken me from managing B2B sales campaigns at an advertising agency, to
+            leading an educational consultancy branch, to serving as CEO of an Australian-based
+            company&apos;s Nepal operations. Today, I direct the MBA Program at
+            <strong> Boston International College</strong> while teaching Marketing &amp; Strategic
+            Management at the Masters level and training professionals in personality development
+            and business communication.
           </p>
           <div className="about-highlights reveal reveal-delay-3">
             <div className="highlight-item">
+              <div className="highlight-icon">🎯</div>
+              <div className="highlight-text">
+                <h4>Marketing &amp; Sales</h4>
+                <p>B2B strategy &amp; revenue growth</p>
+              </div>
+            </div>
+            <div className="highlight-item">
+              <div className="highlight-icon">🏢</div>
+              <div className="highlight-text">
+                <h4>Business Leadership</h4>
+                <p>Branch Manager to CEO</p>
+              </div>
+            </div>
+            <div className="highlight-item">
+              <div className="highlight-icon">🧠</div>
+              <div className="highlight-text">
+                <h4>Corporate Trainer</h4>
+                <p>Personality &amp; communication</p>
+              </div>
+            </div>
+            <div className="highlight-item">
               <div className="highlight-icon">🎓</div>
               <div className="highlight-text">
-                <h4>MBA Program Leadership</h4>
-                <p>Directing academics &amp; admissions</p>
-              </div>
-            </div>
-            <div className="highlight-item">
-              <div className="highlight-icon">📈</div>
-              <div className="highlight-text">
-                <h4>Business Development</h4>
-                <p>Strategic growth &amp; partnerships</p>
-              </div>
-            </div>
-            <div className="highlight-item">
-              <div className="highlight-icon">🚀</div>
-              <div className="highlight-text">
-                <h4>Entrepreneurship Advocate</h4>
-                <p>Startup bootcamps &amp; mentoring</p>
-              </div>
-            </div>
-            <div className="highlight-item">
-              <div className="highlight-icon">🤝</div>
-              <div className="highlight-text">
-                <h4>Student Counselor</h4>
-                <p>Career guidance &amp; empowerment</p>
+                <h4>MBA Educator</h4>
+                <p>Marketing &amp; Strategic Management</p>
               </div>
             </div>
           </div>

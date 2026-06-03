@@ -5,8 +5,13 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import RolesMarquee from '@/components/RolesMarquee';
 import About from '@/components/About';
+import CareerTimeline from '@/components/CareerTimeline';
+import Credentials from '@/components/Credentials';
 import Services from '@/components/Services';
+import Training from '@/components/Training';
+import CoursesTeach from '@/components/CoursesTeach';
 import Skills from '@/components/Skills';
+import Speaking from '@/components/Speaking';
 import Testimonials from '@/components/Testimonials';
 import Philosophy from '@/components/Philosophy';
 import Contact from '@/components/Contact';
@@ -50,8 +55,14 @@ export default function Home() {
       }
     };
 
+    const getParticleColor = () => {
+      const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+      return isLight ? '120, 90, 30' : '212, 168, 83';
+    };
+
     const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
+      const color = getParticleColor();
       particles.forEach(p => {
         p.x += p.speedX;
         p.y += p.speedY;
@@ -59,7 +70,7 @@ export default function Home() {
         if (p.y < 0 || p.y > canvas.height) p.speedY *= -1;
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(212, 168, 83, ${p.opacity})`;
+        ctx.fillStyle = `rgba(${color}, ${p.opacity})`;
         ctx.fill();
       });
       // Connections
@@ -72,7 +83,7 @@ export default function Home() {
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(particles[j].x, particles[j].y);
-            ctx.strokeStyle = `rgba(212, 168, 83, ${0.06 * (1 - dist / 150)})`;
+            ctx.strokeStyle = `rgba(${color}, ${0.06 * (1 - dist / 150)})`;
             ctx.lineWidth = 0.5;
             ctx.stroke();
           }
@@ -105,7 +116,7 @@ export default function Home() {
     document.addEventListener('mousemove', onMove);
     document.addEventListener('mouseleave', onLeave);
 
-    const interactiveEls = document.querySelectorAll('a, button, .service-card, .tag, .testimonial-card');
+    const interactiveEls = document.querySelectorAll('a, button, .service-card, .tag, .testimonial-card-h, .training-card, .timeline-card');
     interactiveEls.forEach(el => {
       el.addEventListener('mouseenter', () => cursor.classList.add('hover'));
       el.addEventListener('mouseleave', () => cursor.classList.remove('hover'));
@@ -155,8 +166,13 @@ export default function Home() {
       <Hero />
       <RolesMarquee />
       <About />
+      <CareerTimeline />
+      <Credentials />
       <Services />
+      <Training />
+      <CoursesTeach />
       <Skills />
+      <Speaking />
       <Testimonials />
       <Philosophy />
       <Contact />
