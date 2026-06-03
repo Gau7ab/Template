@@ -1,4 +1,4 @@
-import { Briefcase, Target, Brain, MessageSquare, Chess } from 'lucide-react';
+import { Briefcase, Target, Brain, MessageSquare, Lightbulb } from 'lucide-react';
 
 export default function Training() {
   const workshops = [
@@ -27,7 +27,7 @@ export default function Training() {
       audience: 'Corporate Professionals',
     },
     {
-      icon: Chess,
+      icon: Lightbulb,
       title: 'Strategic Management Session',
       desc: 'For MBA classrooms and corporate leadership teams. Covers strategic thinking, competitive analysis, and decision-making frameworks.',
       audience: 'MBA Classes & Leadership Teams',
