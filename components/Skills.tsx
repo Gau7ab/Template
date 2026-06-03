@@ -1,5 +1,6 @@
 'use client';
 import { useEffect } from 'react';
+import { Target, Briefcase, Brain, GraduationCap } from 'lucide-react';
 
 export default function Skills() {
   const skills = [
@@ -14,10 +15,10 @@ export default function Skills() {
   ];
 
   const tagGroups = [
-    { icon: '🎯', title: 'Marketing & Sales', tags: ['Integrated Marketing Communications', 'Market Segmentation', 'Brand Strategy', 'B2B Sales', 'Service Selling', 'Client Acquisition', 'Revenue Growth'] },
-    { icon: '🏢', title: 'Business & Leadership', tags: ['P&L Management', 'Strategic Decision-Making', 'Operations Management', 'International Business', 'Team Building', 'Branch Management'] },
-    { icon: '🧠', title: 'Training & Development', tags: ['Personality Development', 'Business Etiquette', 'Confidence Building', 'Presentation Skills', 'Workshop Facilitation', 'Soft Skills'] },
-    { icon: '🎓', title: 'Academics & Mentoring', tags: ['Curriculum Design', 'Faculty Coordination', 'Student Counseling', 'Career Mentoring', 'Program Management', 'Entrepreneurship Advocacy'] },
+    { icon: Target, title: 'Marketing & Sales', tags: ['Integrated Marketing Communications', 'Market Segmentation', 'Brand Strategy', 'B2B Sales', 'Service Selling', 'Client Acquisition', 'Revenue Growth'] },
+    { icon: Briefcase, title: 'Business & Leadership', tags: ['P&L Management', 'Strategic Decision-Making', 'Operations Management', 'International Business', 'Team Building', 'Branch Management'] },
+    { icon: Brain, title: 'Training & Development', tags: ['Personality Development', 'Business Etiquette', 'Confidence Building', 'Presentation Skills', 'Workshop Facilitation', 'Soft Skills'] },
+    { icon: GraduationCap, title: 'Academics & Mentoring', tags: ['Curriculum Design', 'Faculty Coordination', 'Student Counseling', 'Career Mentoring', 'Program Management', 'Entrepreneurship Advocacy'] },
   ];
 
   useEffect(() => {
@@ -60,7 +61,7 @@ export default function Skills() {
           <div className="skills-tags reveal reveal-delay-2">
             {tagGroups.map((g, i) => (
               <div className="tag-group" key={i}>
-                <h4>{g.icon} {g.title}</h4>
+                <h4><g.icon size={20} style={{ display: 'inline-block', marginRight: '8px' }} /> {g.title}</h4>
                 <div className="tags-container">
                   {g.tags.map((t, j) => (<span className="tag" key={j}>{t}</span>))}
                 </div>

@@ -1,3 +1,5 @@
+import { Mic2, MessageSquare, Wrench, BookMarked, Building2, ArrowRight } from 'lucide-react';
+
 export default function Speaking() {
   const topics = [
     'Marketing Strategy & IMC',
@@ -10,11 +12,11 @@ export default function Speaking() {
   ];
 
   const formats = [
-    { icon: '🎤', label: 'Keynote Address' },
-    { icon: '💬', label: 'Panel Discussion' },
-    { icon: '🛠️', label: 'Workshop' },
-    { icon: '🎓', label: 'Guest Lecture' },
-    { icon: '🏢', label: 'Corporate Training' },
+    { icon: Mic2, label: 'Keynote Address' },
+    { icon: MessageSquare, label: 'Panel Discussion' },
+    { icon: Wrench, label: 'Workshop' },
+    { icon: BookMarked, label: 'Guest Lecture' },
+    { icon: Building2, label: 'Corporate Training' },
   ];
 
   return (
@@ -43,9 +45,7 @@ export default function Speaking() {
 
             <a href="#contact" className="btn-primary reveal reveal-delay-4" style={{ display: 'inline-flex', marginTop: '2rem' }}>
               <span>Invite Me to Speak</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                <path d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
+              <ArrowRight size={18} />
             </a>
           </div>
 
@@ -54,7 +54,7 @@ export default function Speaking() {
             <div className="formats-list">
               {formats.map((f, i) => (
                 <div className="format-item" key={i}>
-                  <span className="format-icon">{f.icon}</span>
+                  <span className="format-icon"><f.icon size={24} /></span>
                   <span className="format-label">{f.label}</span>
                 </div>
               ))}
