@@ -59,6 +59,12 @@ export default function Speaking() {
                 </div>
               ))}
             </div>
+            <div className="speaking-image-container">
+              <img 
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Shikhar_taking_session.png-A5INypveDhPuDfZo8YOXN6wfeTKAuZ.jpeg"
+                alt="Shikhar giving a presentation session with smartphone in professional setting"
+              />
+            </div>
             <div className="speaking-note">
               <p>📍 Available for events across Nepal and internationally (virtual sessions supported).</p>
             </div>
