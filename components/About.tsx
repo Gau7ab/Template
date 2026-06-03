@@ -3,7 +3,7 @@ export default function About() {
     <section className="about" id="about">
       <div className="container">
         <div className="about-image reveal">
-          <img src="/about-portrait.jpg" alt="Shikhar Lamichhane — Professional Portrait" />
+          <img src="/shikhar-lamichhane.jpg" alt="Shikhar Lamichhane — Professional Portrait" />
           <div className="experience-badge">
             <div className="number">7+</div>
             <div className="label">Years Exp.</div>
@@ -31,28 +31,28 @@ export default function About() {
               <div className="highlight-icon">🎓</div>
               <div className="highlight-text">
                 <h4>MBA Program Leadership</h4>
-                <p>Directing academics &amp; admissions</p>
+                <p>Directing academics & admissions</p>
               </div>
             </div>
             <div className="highlight-item">
               <div className="highlight-icon">📈</div>
               <div className="highlight-text">
                 <h4>Business Development</h4>
-                <p>Strategic growth &amp; partnerships</p>
+                <p>Strategic growth & partnerships</p>
               </div>
             </div>
             <div className="highlight-item">
-              <div className="highlight-icon">🚀</div>
+              <div className="highlight-icon">👥</div>
               <div className="highlight-text">
                 <h4>Entrepreneurship Advocate</h4>
-                <p>Startup bootcamps &amp; mentoring</p>
+                <p>Startup bootcamps & mentoring</p>
               </div>
             </div>
             <div className="highlight-item">
-              <div className="highlight-icon">🤝</div>
+              <div className="highlight-icon">💡</div>
               <div className="highlight-text">
                 <h4>Student Counselor</h4>
-                <p>Career guidance &amp; empowerment</p>
+                <p>Career guidance & empowerment</p>
               </div>
             </div>
           </div>

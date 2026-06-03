@@ -67,7 +67,7 @@ export default function Hero() {
         </div>
         <div className="hero-image-wrapper">
           <div className="hero-image-container">
-            <img src="/gemini-generated-image.jpg" alt="Shikhar Lamichhane — Assistant Director MBA Program, Boston International College" />
+            <img src="/shikhar-lamichhane.jpg" alt="Shikhar Lamichhane — Assistant Director MBA Program, Boston International College" />
           </div>
           <div className="hero-stats" ref={statsRef}>
             <div className="stat-card">

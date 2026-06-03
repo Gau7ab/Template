@@ -48,30 +48,6 @@ export default function Testimonials() {
       text: 'You have a strong work ethic and have always been motivated by the achievement of goals. With significant command on professional communication and ability to engage in meaningful conversation, you have the ability to convince and command.',
       initials: 'SP', name: 'Suman Poudel', role: 'Principal @ Ankuram Academy | PGCHRM IIM Shillong',
     },
-    {
-      text: 'Through his leadership in the MBA program, he has created valuable opportunities for students to engage with industry experts and gain real-world insights. His proactive approach in connecting students with HR professionals has been instrumental in shaping future-ready talent.',
-      initials: 'MT', name: 'Mohan Thapa ★ CHRO ★', role: 'CHRO | HR Strategy & Org Development @ JCB Nepal',
-    },
-    {
-      text: 'Shikhar possesses an unparalleled ability to connect with people on a profound level. His exceptional communication skills inspire trust, foster collaboration, and drive results. He has a rare talent for convincing others through a thoughtful approach that appeals to logic, emotion, and shared purpose.',
-      initials: 'SR', name: 'Sauran Rijal', role: 'Head-Marketing, BATAS MAW Commercial Vehicles',
-    },
-    {
-      text: 'Mr. Shikhar Lamichhane is highly professional and cooperative in his professional position and personally a good person too. I highly recommend him in the management field.',
-      initials: 'BS', name: 'Birat Shrestha', role: 'Managing Director at Access Universe Pvt. Ltd.',
-    },
-    {
-      text: 'Shikhar brought his corporate background to the academic environment. He has a highly influential personality that transpires the work atmosphere. His leadership and organizational skills were instrumental in ensuring the smooth operation of the MBA Program.',
-      initials: 'PG', name: 'Prem Gaire', role: 'Entrepreneurship Educator & Ecosystem Builder',
-    },
-    {
-      text: 'Shikhar\'s leadership skills are truly commendable; he leads with vision and purpose, consistently inspiring those around him to strive for excellence. His ability to communicate complex ideas with clarity and precision is equally impressive.',
-      initials: 'JT', name: 'Jagadish Timilsina', role: 'Attended Wrexham Glyndŵr University',
-    },
-    {
-      text: 'Shikhar impressed everyone with his well-rounded skill set in marketing, sales, and customer service. He has a keen understanding of marketing principles and demonstrated his ability to drive results consistently.',
-      initials: 'SB', name: 'Surit Bhattarai', role: 'Student Recruitment Expert | 14+ Years Experience',
-    },
   ];
 
   const doubled = [...testimonials, ...testimonials];
