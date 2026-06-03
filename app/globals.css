@@ -1856,19 +1856,6 @@ img {
   color: var(--text-muted);
 }
 
-.speaking-image-container {
-  margin-top: 2rem;
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  border: 1px solid var(--border-glass);
-}
-
-.speaking-image-container img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 /* ========================================
    LIGHT THEME
    ======================================== */
