@@ -1920,6 +1920,54 @@ img {
 }
 
 /* ========================================
+   CONNECT IMAGE SECTION
+   ======================================== */
+.connect-image {
+  position: relative;
+  padding: 4rem 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.connect-image-wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border-glass);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.connect-image-wrapper.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s var(--ease-spring);
+}
+
+.connect-image-wrapper.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.connect-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .connect-image {
+    padding: 2rem 0;
+  }
+
+  .connect-image-wrapper {
+    border-radius: 8px;
+  }
+}
+
+/* ========================================
    SCROLL ANIMATIONS
    ======================================== */
 .reveal {
