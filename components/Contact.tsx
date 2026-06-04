@@ -40,7 +40,7 @@ export default function Contact() {
               <div className="contact-method-icon"><Phone size={24} /></div>
               <div className="contact-method-text">
                 <h4>Phone</h4>
-                <p>+977-9801314487</p>
+                <a href="tel:+977-9801314487" style={{ textDecoration: 'none', color: 'inherit' }}>+977-9801314487</a>
               </div>
             </div>
             <div className="contact-method">
