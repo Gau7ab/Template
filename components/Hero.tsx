@@ -79,7 +79,7 @@ export default function Hero() {
         </div>
         <div className="hero-image-wrapper">
           <div className="hero-image-container">
-            <img src="/hero-profile.png" alt="Shikhar Lamichhane — Marketing Strategist, B2B Sales Expert, Corporate Trainer, MBA Educator" />
+            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Shikhar_taking_session.png-A5INypveDhPuDfZo8YOXN6wfeTKAuZ.jpeg" alt="Shikhar Lamichhane giving a presentation session with smartphone in professional setting" />
           </div>
           <div className="hero-stats" ref={statsRef}>
             <div className="stat-card">

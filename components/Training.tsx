@@ -1,31 +1,33 @@
+import { Briefcase, Target, Brain, MessageSquare, Lightbulb } from 'lucide-react';
+
 export default function Training() {
   const workshops = [
     {
-      icon: '💼',
+      icon: Briefcase,
       title: 'B2B Sales Mastery Workshop',
       desc: 'A practical, hands-on workshop for sales teams and professionals in service-based industries. Covers the full sales cycle from prospecting to closing.',
       audience: 'Sales Teams & Professionals',
     },
     {
-      icon: '🎯',
+      icon: Target,
       title: 'Marketing Strategy Masterclass',
       desc: 'Covering market analysis, STP (Segmentation, Targeting, Positioning), IMC planning, and strategic implementation. Suitable for MBA students and marketing professionals.',
       audience: 'MBA Students & Marketing Pros',
     },
     {
-      icon: '🧠',
+      icon: Brain,
       title: 'Personality Development Training',
       desc: 'Building professional presence, confidence, and interpersonal effectiveness. Ideal for fresh graduates, corporate teams, and individuals in client-facing roles.',
       audience: 'Graduates & Corporate Teams',
     },
     {
-      icon: '📧',
+      icon: MessageSquare,
       title: 'Business Communication Etiquette',
       desc: 'Professional and corporate communication standards, meeting etiquette, written and verbal communication, and email/presentation best practices.',
       audience: 'Corporate Professionals',
     },
     {
-      icon: '♟️',
+      icon: Lightbulb,
       title: 'Strategic Management Session',
       desc: 'For MBA classrooms and corporate leadership teams. Covers strategic thinking, competitive analysis, and decision-making frameworks.',
       audience: 'MBA Classes & Leadership Teams',
@@ -48,7 +50,7 @@ export default function Training() {
         <div className="training-grid">
           {workshops.map((w, i) => (
             <div className={`training-card reveal${i > 0 ? ` reveal-delay-${Math.min(i, 3)}` : ''}`} key={i}>
-              <div className="training-icon">{w.icon}</div>
+              <div className="training-icon"><w.icon size={32} /></div>
               <div className="training-content">
                 <h3>{w.title}</h3>
                 <p>{w.desc}</p>

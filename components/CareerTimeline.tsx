@@ -1,4 +1,5 @@
 'use client';
+import { Megaphone, TrendingUp, Globe, Briefcase } from 'lucide-react';
 
 export default function CareerTimeline() {
   const milestones = [
@@ -6,7 +7,7 @@ export default function CareerTimeline() {
       period: 'Early Career',
       role: 'Business Development Executive',
       org: 'Advertising Agency',
-      icon: '📢',
+      icon: Megaphone,
       accent: 'var(--accent-blue)',
       responsibilities: [
         'Client acquisition & B2B campaign management',
@@ -18,7 +19,7 @@ export default function CareerTimeline() {
       period: 'Growth Phase',
       role: 'Branch Manager',
       org: 'Reputed Educational Consultancy',
-      icon: '📈',
+      icon: TrendingUp,
       accent: 'var(--accent-emerald)',
       responsibilities: [
         'Full branch P&L management',
@@ -30,7 +31,7 @@ export default function CareerTimeline() {
       period: 'Leadership',
       role: 'Chief Executive Officer (CEO)',
       org: 'Australian-Based Company — Nepal Operations',
-      icon: '🌏',
+      icon: Globe,
       accent: 'var(--accent-coral)',
       responsibilities: [
         'End-to-end business operations',
@@ -42,7 +43,7 @@ export default function CareerTimeline() {
       period: 'Present',
       role: 'Assistant Director — MBA Program',
       org: 'Boston International College (BIC), Bharatpur',
-      icon: '🎓',
+      icon: Briefcase,
       accent: 'var(--gold-primary)',
       responsibilities: [
         'Academic leadership & faculty coordination',
@@ -70,7 +71,7 @@ export default function CareerTimeline() {
           {milestones.map((m, i) => (
             <div className={`timeline-item reveal${i > 0 ? ` reveal-delay-${Math.min(i, 3)}` : ''}`} key={i}>
               <div className="timeline-marker" style={{ borderColor: m.accent }}>
-                <span className="timeline-icon">{m.icon}</span>
+                <span className="timeline-icon"><m.icon size={24} /></span>
               </div>
               <div className="timeline-connector"></div>
               <div className="timeline-card">

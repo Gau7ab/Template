@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
+import { Sun, Moon, Menu, X } from 'lucide-react';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -53,10 +54,10 @@ export default function Navbar() {
             aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
             title={darkMode ? 'Light Mode' : 'Dark Mode'}
           >
-            <span className="theme-toggle-icon">{darkMode ? '☀️' : '🌙'}</span>
+            {darkMode ? <Sun size={20} /> : <Moon size={20} />}
           </button>
           <button className={`mobile-toggle${mobileOpen ? ' active' : ''}`} onClick={() => setMobileOpen(!mobileOpen)} aria-label="Toggle Navigation">
-            <span></span><span></span><span></span>
+            {mobileOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
       </div>

@@ -1,5 +1,6 @@
 'use client';
 import { FormEvent, useState } from 'react';
+import { Mail, Phone, MapPin, Globe, Send } from 'lucide-react';
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
@@ -29,28 +30,28 @@ export default function Contact() {
           </div>
           <div className="contact-methods reveal reveal-delay-3">
             <div className="contact-method">
-              <div className="contact-method-icon">📧</div>
+              <div className="contact-method-icon"><Mail size={24} /></div>
               <div className="contact-method-text">
                 <h4>Email</h4>
                 <p>shikhar.lamichhane@bostoncollege.edu.np</p>
               </div>
             </div>
             <div className="contact-method">
-              <div className="contact-method-icon">📱</div>
+              <div className="contact-method-icon"><Phone size={24} /></div>
               <div className="contact-method-text">
                 <h4>Phone</h4>
-                <p>+977-9801314487</p>
+                <a href="tel:+977-9801314487" style={{ textDecoration: 'none', color: 'inherit' }}>+977-9801314487</a>
               </div>
             </div>
             <div className="contact-method">
-              <div className="contact-method-icon">📍</div>
+              <div className="contact-method-icon"><MapPin size={24} /></div>
               <div className="contact-method-text">
                 <h4>Location</h4>
                 <p>Bharatpur, Chitwan, Nepal</p>
               </div>
             </div>
             <div className="contact-method">
-              <div className="contact-method-icon">🌐</div>
+              <div className="contact-method-icon"><Globe size={24} /></div>
               <div className="contact-method-text">
                 <h4>Website</h4>
                 <p>www.shikharlamichhane.com.np</p>
@@ -101,9 +102,7 @@ export default function Contact() {
           <div className="form-submit">
             <button type="submit" className="btn-primary" style={submitted ? { background: 'linear-gradient(135deg, #34d399, #059669)' } : {}}>
               <span>{submitted ? 'Message Sent! ✓' : 'Send Message'}</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
-              </svg>
+              <Send size={18} />
             </button>
           </div>
         </form>

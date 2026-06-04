@@ -1,10 +1,12 @@
+import { Zap, Target, Lightbulb, Users, Sparkles } from 'lucide-react';
+
 export default function Philosophy() {
   const values = [
-    { icon: '🔥', title: 'Bold Execution', sub: 'Strategy without action is fantasy' },
-    { icon: '🎯', title: 'Real-World Focus', sub: 'Theory meets practice' },
-    { icon: '💡', title: 'Continuous Growth', sub: 'Always learning, always evolving' },
-    { icon: '🤝', title: 'People First', sub: 'Every interaction matters' },
-    { icon: '⚡', title: 'Multi-Dimensional', sub: 'Sales, strategy, training, education' },
+    { icon: Zap, title: 'Bold Execution', sub: 'Strategy without action is fantasy' },
+    { icon: Target, title: 'Real-World Focus', sub: 'Theory meets practice' },
+    { icon: Lightbulb, title: 'Continuous Growth', sub: 'Always learning, always evolving' },
+    { icon: Users, title: 'People First', sub: 'Every interaction matters' },
+    { icon: Sparkles, title: 'Multi-Dimensional', sub: 'Sales, strategy, training, education' },
   ];
 
   return (
@@ -22,7 +24,7 @@ export default function Philosophy() {
           <div className="philosophy-values">
             {values.map((v, i) => (
               <div className="value-item" key={i}>
-                <div className="value-icon">{v.icon}</div>
+                <div className="value-icon"><v.icon size={32} /></div>
                 <h4>{v.title}</h4>
                 <p>{v.sub}</p>
               </div>
